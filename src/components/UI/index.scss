@@ -1,0 +1,74 @@
+.theme-switcher-wrap {
+    padding-right: 30px;
+    width: 100%;
+    text-align: right; 
+
+
+    .theme-switcher {
+        display: inline-block;
+        cursor: pointer;
+
+
+        .switch-path {
+            width: 40px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #555;
+
+
+        .switch-handle {
+            background-color: #7bbb5e;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            transition: all 0.3s ease-in-out;
+            transform: translateX(20px)
+        }
+    }
+
+        &.active {
+            .switch-path {
+                background-color: #ccc;
+            }
+
+            .switch-handle {
+                transform: translateX(0px);
+                background-color: #999;
+            }
+        }
+    }
+}
+
+.cart.theme-light {
+    background-color: #dcdfd8;
+}
+
+h3.theme-light, p.theme-light, .identification-number.theme-light, .exit__text.theme-light, .my-data__name.theme-light,
+.my-data__number.theme-light, .my-data__text.theme-light
+{
+    color: #576a90;
+}
+
+.exit.theme-light {
+    background-image: url('@/assets/images/exit_light_theme.png');
+}
+
+.my-data.theme-light, .tasks-item.theme-light {
+    background-color: #ccc;
+}
+
+.briefing.theme-light {
+    background-image: url('@/assets/images/briefing_theme_light.png');
+}
+
+.pre-shift-examiner.theme-light {
+    background-image: url('@/assets/images/test_theme_light.png');
+}
+
+.menu.theme-light {
+    background-color: #fff;
+}
+
+.logo.theme-light {
+    background-image: url('@/assets/images/logo_light_theme.png');
+}
